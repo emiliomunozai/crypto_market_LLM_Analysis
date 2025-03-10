@@ -1,6 +1,14 @@
 # Basic python modules
 pandas
 numpy
+pydantic
+pylance
+python-dotenv
 
 # Binance API handler
 requests
+
+# LLM Models
+langchain
+langchain_openai
+openai==1.60.2

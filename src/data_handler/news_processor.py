@@ -2,7 +2,7 @@ import pandas as pd
 
 def process_news(sample=1000):
     # Load raw data
-    news = pd.read_csv('data/news/raw/news_btc.csv')
+    news = pd.read_csv('data/news/raw/news_btc.csv', nrows=sample)
 
     # Sample data
     news = news.head(sample)
