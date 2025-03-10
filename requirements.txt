@@ -1,0 +1,6 @@
+# Basic python modules
+pandas
+numpy
+
+# Binance API handler
+requests
